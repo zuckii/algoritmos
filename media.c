@@ -15,3 +15,4 @@ int main(){
     printf("A media é: %d\n", m);
     return 0;
 }
+
