@@ -13,8 +13,9 @@ int main() {
 
     for (int i = 0; (i < len-1); i++){
         // printf("%c\n", frase[i]);
-        if (frase[i] == "ü"){
-            frase[i] = "u";
+        if (frase[i] == 'ü'){
+            frase[i] = 'u';
+            frase[i+1] = ' ';
         }
     }
 
