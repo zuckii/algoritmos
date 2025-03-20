@@ -1,10 +1,5 @@
-# Lendo os valores de entrada
-input_beecrowd = input()
-
-a, b, c = input_beecrowd.split()
-a = float(a)
-b = float(b)
-c = float(c)
+# Recebendo os valores em uma única linha e separando-os
+a, b, c = map(float, input().split())
 
 # Calculando o delta
 delta = (b * b) - (4 * a * c)
