@@ -1,6 +1,6 @@
-num1 = input("Digite um número: ")
-num2 = input("Digite outro número: ")
-num3 = input("Digite outro número: ")
+num1 = int(input("Digite um número: "))
+num2 = int(input("Digite outro número: "))
+num3 = int(input("Digite outro número: "))
 
 if num1 < num2 and num2 < num3:
     print(num1, "<", num2, "<", num3)
