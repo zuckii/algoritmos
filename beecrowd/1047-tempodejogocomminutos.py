@@ -1,5 +1,3 @@
-# Lê quatro valores inteiros da entrada, representando:
-# hora_inicial, minuto_inicial, hora_final, minuto_final
 hora_inicial, minuto_inicial, hora_final, minuto_final = map(int, input().split())
 
 # Converte o horário inicial para minutos totais desde 00:00
