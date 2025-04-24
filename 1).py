@@ -18,6 +18,4 @@ for i in range(11):
     
     soma = maior1 + maior2
 
-
-
 print("A soma dos dois maiores números é:", soma)
