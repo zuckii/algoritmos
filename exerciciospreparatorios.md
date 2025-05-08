@@ -25,19 +25,56 @@ somar maior1 e maior2 (soma)
 mostrar uma mensagem na tela ("A soma dos dois maoires numeros é (soma)")
 
 
-## Questão 2 
+## Questão 2 ------------------------------------------
 
 Abrir o arquivo
-Ler os valores do arquivo e armazenar em (c)
+ler os valores do arquivo e armazenar em (c)
 
-Transformar o conteúdo de (c) em uma lista de números (n)
+transformar o conteúdo de (c) em uma lista de números (listaN)
 
-Inicializar:
-    maior = n[0]
-    menor = n[0]
+inicializa duas variaveis ambas com o primeiro valor da lista (maior), (menor)
 
-Para cada valor i em n:
-    Se i > maior:
-        maior = i
-    Senão se i < menor:
-        menor = i
+
+percorrer (valor = atual) os valores de listaN
+    se valor > maior
+        salva o valor em maior
+    se valor < menor
+        menor = valor
+
+salvar o maior e o menor em outro arquivo
+
+
+## Questão 3 ------------------------------------------
+
+recebe a lista ordenada (lista)
+
+
+
+
+## Questão 4 
+
+pedir ao usuario dois valores (base), (altura-2)
+
+criar a variavel (espacos = base - 2)
+
+escreva (base vezes "*")
+
+para i de 0 até altura - 1 faça:
+
+escreva (base vezes "*")
+
+
+## Questão 5
+
+inicializa a constante (poli) que tem a seguinte equação 2x³ - 3x² - 3x + 2
+
+incializa lista vazia para guardar as raizes
+
+para i de 0 até 100.000 faça:
+    x recebe um numero aleatorio
+    realize a operação matematica de poli, utilizando (x)
+    se o resultado = 0
+        armazena o valor de x na lista
+
+
+

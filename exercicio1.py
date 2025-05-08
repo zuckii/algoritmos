@@ -1,9 +1,21 @@
-a = 10
-b = 20
+lista = []
 
-x1 = a + b
 
-c = 30
+for i in range(11):   
+    numero = int(input("Digite um numero: "))
+    if numero == 0:
+        break
+    lista.append(numero)
 
-x2 = x1 * c
+    maior1 = 0
+    maior2 = 0
+    for numero in lista:
+        if numero > maior1:
+            maior2 = maior1
+            maior1 = numero
+        elif numero > maior2:
+            maior2 = numero
+    
+    soma = maior1 + maior2
 
+print("A soma dos dois maiores números é:", soma)
