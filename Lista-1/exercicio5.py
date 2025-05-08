@@ -1,4 +1,4 @@
-# inicializa a constante (poli) que tem a seguinte equação 2x³ - 3x² - 3x + 2
+# importa a função randint da biblioteca random
 from random import randint
 # incializa lista vazia para guardar as raizes
 listaR = []

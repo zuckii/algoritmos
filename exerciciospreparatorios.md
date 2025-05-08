@@ -53,7 +53,9 @@ recebe a lista ordenada (lista)
 
 ## Questão 4 
 
-pedir ao usuario dois valores (base), (altura-2)
+pedir ao usuario dois valores (base), (altura)
+
+altura -= 2
 
 criar a variavel (espacos = base - 2)
 
@@ -66,15 +68,16 @@ escreva (base vezes "*")
 
 ## Questão 5
 
-inicializa a constante (poli) que tem a seguinte equação 2x³ - 3x² - 3x + 2
+importa a função randint da biblioteca random
 
 incializa lista vazia para guardar as raizes
 
+
 para i de 0 até 100.000 faça:
-    x recebe um numero aleatorio
-    realize a operação matematica de poli, utilizando (x)
-    se o resultado = 0
-        armazena o valor de x na lista
+    # x recebe um numero aleatorio
+    # realize a operação matematica de poli, utilizando (x)
+    # se o resultado = 0
+        # armazena o valor de x na lista
 
-
+escreva listaR
 
