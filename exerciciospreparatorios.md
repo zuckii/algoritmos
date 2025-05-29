@@ -1,6 +1,6 @@
 # Exercícios
 
-## Questão 1
+## Questão 2
 
 inicializa lista que vai conter os valores digitados diferentes de zero (lista)
 
